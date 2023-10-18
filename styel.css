@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 101vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(bg2.O.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+    cursor: pointer;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    
+}
+
+.menu {
+    float: left;
+    width: 400px;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100%;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    transition:  0.4s ease-in-out;    
+}
+
+ul li a:hover {
+    color: #ff7200;
+
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 650px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn1 {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn1:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-family: Arial;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    padding: 5px;
+    width: 160px;
+    margin-top: 5px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background: #ff7200;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.par {
+    width: auto;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 1%;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(massage.png);
+    background-size: auto;
+    background-position: center;
+}
+.card1 {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to top, rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%),url(head.png);
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.card2 {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(hot_stone.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 220px;
+    margin-left: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.card-container {
+    width: 350px;
+    height: 440px;
+    background: transparent;
+    position: relative;
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .circle1 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #2879f3;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .circle2 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #f37e10;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .log-card {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    width: 300px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 28px;
+    font-weight: 800;
+  }
+  
+  .para {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .text {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: lightslategray;
+  }
+  
+  .input-group {
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+  
+  .input {
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    width: 100%;
+    border: none;
+    padding: 8px 16px;
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    font-weight: 600;
+    color: #2879f3;
+  }
+  
+  .input:hover {
+    color: #2879f3;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .password-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  .checkbox-group {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .forget-password {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2879f3;
+    text-decoration: none;
+  }
+  
+  .forget-password:hover {
+    text-decoration: underline;
+    color: #f37e10;
+  }
+  
+  .btn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #2879f3;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+  }
+  
+  .btn:hover {
+    background-color: #0653c7;
+  }
+  
+  .no-account {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .link {
+    font-weight: 800;
+    color: #2879f3;
+  }
+  
+  .link:hover {
+    color: #f37e10;
+    text-decoration: underline;
+  }
+
+  .login {
+    margin: 425px;
+  }
